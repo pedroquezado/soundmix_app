@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW 2017 -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="38.828mm" height="28.738mm" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 3883 2874"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .fil0 {fill:#FEFEFE}
+   ]]>
+  </style>
+    <clipPath id="id0">
+     <path d="M-43 -67l3969 0 0 3009 -3969 0 0 -3009z"/>
+    </clipPath>
+ </defs>
+ <g id="Camada_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <g id="_756811584">
+   <g style="clip-path:url(#id0)">
+    <image x="-43" y="-67" width="3969" height="3009" xlink:href="Sem título-1_Images\Sem título-1_ImgID1.png"/>
+   </g>
+  </g>
+  <g id="_756810336">
+   <rect class="fil0" x="94" y="69" width="2924" height="424" rx="196" ry="212"/>
+   <rect class="fil0" x="94" y="1188" width="3695" height="424" rx="247" ry="212"/>
+   <rect class="fil0" x="94" y="2380" width="3407" height="424" rx="228" ry="212"/>
+  </g>
+ </g>
+</svg>

@@ -1,0 +1,192 @@
+@keyframes example {
+    from {
+    	width: 150px;
+    	opacity: 1;
+    	margin-top: 0px;
+    }
+    to {
+    	width: 300px;
+    	opacity: 0;
+    	margin-top: -75px;
+    }
+}
+
+@keyframes lux {
+    0% {
+        box-shadow: 0 0 20px 5px rgba(255, 255, 255, 0.63);
+    }
+    50% {
+        box-shadow: 0 0 60px 15px #fff ;
+    }
+    100% {
+        box-shadow: 0 0 20px 5px rgba(255, 255, 255, 0.63);
+    }
+}
+
+@keyframes news {
+    from {
+    	height: 62px;
+    }
+    to {
+    	height: calc(100% - 52px);
+    }
+}
+
+@keyframes newsc {
+    from {
+    	height: calc(100% - 52px);
+    }
+    to {
+    	height: 62px;
+    }
+}
+
+.news_open {
+    animation-name: news;
+    animation-duration: .5s;
+    -webkit-animation-iteration-count:1;
+    -webkit-animation-fill-mode: forwards;
+}
+
+.news_closer {
+    animation-name: newsc;
+    animation-duration: .5s;
+    -webkit-animation-iteration-count:1;
+    -webkit-animation-fill-mode: forwards;
+}
+
+div.content .los img {
+    animation-name: example;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+div.content .los img.ani_d2 {
+	opacity: 0;
+	animation-delay: 2s;
+}
+div.content .los img.ani_d3 {
+	opacity: 0;
+	animation-delay: 4s;
+}
+.flax_bot {
+	display: none;
+}
+
+
+.hover_lasr {
+    box-shadow: 0 0 20px 4px #fff;
+}
+.hover_first {
+    animation-name: lux;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+.hover_lasr, .hover_first {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    border-radius: 50%;
+    z-index: 1;
+    display: none;
+}
+.box-shad_cover {box-shadow: 0 0 41px 5px #fff !important;}
+.box-shad_butPlay {box-shadow: 0 0 20px 0px #fff;}
+
+.play, .pause {
+    z-index: 9;
+    position: relative;
+}
+
+@keyframes spin { 
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform:rotate(0deg);
+    } 100% { 
+        -webkit-transform: rotate(180deg);
+        transform:rotate(180deg); 
+    }
+}
+@keyframes nospin { 
+    0% {
+        -webkit-transform: rotate(180deg);
+        transform:rotate(180deg);
+    } 100% { 
+        -webkit-transform: rotate(0deg);
+        transform:rotate(0deg); 
+    }
+}
+.rotate_news {
+    animation-name: spin;
+    animation-duration: .5s;
+    -webkit-animation-iteration-count:1;
+    -webkit-animation-fill-mode: forwards;
+}
+
+.norotate_news {
+    animation-name: nospin;
+    animation-duration: .5s;
+    -webkit-animation-iteration-count:1;
+    -webkit-animation-fill-mode: forwards;
+}
+
+
+
+@keyframes bordercolor { 
+    0% {
+        border-bottom: 1px solid rgba(255, 255, 255, 0);
+    } 100% { 
+        border-bottom: 1px solid rgba(255, 255, 255, 0.51);
+    }
+}
+div.news_open .butNews {
+    border-bottom: 1px solid rgba(255, 255, 255, 0);
+    animation-name: bordercolor;
+    animation-duration: 1s;
+    -webkit-animation-iteration-count:1;
+    -webkit-animation-fill-mode: forwards;
+}
+@keyframes nobordercolor { 
+    0% {
+        border-bottom: 1px solid rgba(255, 255, 255, 0.51);
+    } 100% { 
+        border-bottom: 1px solid rgba(255, 255, 255, 0);
+    }
+}
+div.news_open.news_closer .butNews {
+    border-bottom: 1px solid rgba(255, 255, 255, 0);
+    animation-name: nobordercolor;
+    animation-duration: 1s;
+    -webkit-animation-iteration-count:1;
+    -webkit-animation-fill-mode: forwards;
+}
+
+
+
+@keyframes menu_open { 
+    0% {
+        left: -60%;
+    } 100% { 
+        left: 0%;
+    }
+}
+#app .body_app div#menuApp.menu_open {
+    animation-name: menu_open;
+    animation-duration: .3s;
+    -webkit-animation-iteration-count:1;
+    -webkit-animation-fill-mode: forwards;
+}
+@keyframes menu_closer { 
+    0% {
+        left: 0%;
+    } 100% { 
+        left: -65%;
+    }
+}
+#app .body_app div#menuApp.menu_closer {
+    animation-name: menu_closer;
+    animation-duration: .3s;
+    -webkit-animation-iteration-count:1;
+    -webkit-animation-fill-mode: forwards;
+}
